@@ -1,0 +1,25 @@
+@use './variables' as *;
+ 
+
+* {
+    background-color: $neutral_light_gray;
+}
+
+
+.attribution {
+ font-size: 11px; 
+ text-align: center; 
+ a{
+    color: hsl(228, 45%, 44%);
+ }
+}
+
+
+
+
+@media screen and (max-width: 375px){
+
+}
+
+
+
