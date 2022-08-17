@@ -1,12 +1,6 @@
 * {
-  background-color: hsl(270deg, 3%, 87%);
-  font-size: 20px;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228deg, 45%, 44%);
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
 }/*# sourceMappingURL=style.css.map */

@@ -2,19 +2,12 @@
  
 
 * {
-    background-color: $neutral_light_gray;
-    font-size: 20px;
-}
-
-
-.attribution {
- font-size: 11px; 
- text-align: center; 
- a{
-    color: hsl(228, 45%, 44%);
- }
-}
-
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: $body_font_size;
+  }
+      
 
 
 

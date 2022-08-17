@@ -12,37 +12,27 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  0000 0000 0000 0000
-  Jane Appleseed
-  00/00
-
-  000
-
-  Cardholder Name
-  e.g. Jane Appleseed
-
-  Card Number
-  e.g. 1234 5678 9123 0000
-
-  Exp. Date (MM/YY)
-  MM
-  YY
-
-  CVC
-  e.g. 123
-
-  Confirm
-
-  <!-- Completed state start -->
-
-  Thank you!
-  We've added your card details
-  Continue
+<div class="container">
+  <header class="header">
+    <section class="header__card--back"></section>
+    <section class="header__card--front"></section>
+  </header>
+  <main class="main">
+    <form action="">
+      <label for="name">Cardholder Name</label>
+      <input type="text" name="fullName" class="main__fullname--input" placeholder="e.g Jane Appleseed">
+      <label for="card_number">Card Number</label>
+      <input type="number" name="cardNumber" class="main__cardnumber--input" placeholder="e.g 1234 5678 9123 0000">
+      <label for="ExpDate">Exp. Date (mm/yy)</label>
+      <input type="number" name="month" class="main__mmnumber--input" placeholder="mm">
+      <input type="number" name="year" class="main__yearnumber--input" placeholder="yy">
+      <label for="cvc">cvc</label>
+      <input type="number" name="cvc" class="main__cvcnumber--input" placeholder="e.g. 123"> 
+      <button class="main__confirm--button">Confirm</button>
+    </form>
+  </main>
+</div>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+
 </body>
 </html>
